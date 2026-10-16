@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>inkov.dev F-Droid repository</title>
+<meta name="description" content="F-Droid repository of developer Evgeny Inkov: reproducible builds signed by the author.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="repo/icons/icon.png" type="image/png">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: light-dark(#f5f6f8, #0e1116);
+    --surface: light-dark(#ffffff, #151a21);
+    --text: light-dark(#151a21, #e4e8ee);
+    --muted: light-dark(#525c69, #98a2b0);
+    --border: light-dark(#d6dbe2, #29303a);
+    --accent: light-dark(#1f5bd6, #7ea6ff);
+    --on-accent: light-dark(#ffffff, #0e1116);
+    --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif;
+    --font-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 1rem/1.6 var(--font-sans);
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  header { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
+  header img { flex: none; border-radius: 12px; background: #ffffff; }
+  h1 { margin: 0; font-size: 1.6rem; line-height: 1.25; }
+  h2 { margin: 2rem 0 0.5rem; font-size: 1.15rem; }
+  a { color: var(--accent); }
+  .button {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background: var(--accent);
+    color: var(--on-accent);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .card {
+    margin: 0.75rem 0 0;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+  }
+  .card dt { color: var(--muted); font-size: 0.875rem; }
+  .card dd { margin: 0 0 0.5rem; font-family: var(--font-mono); font-size: 0.875rem; overflow-wrap: anywhere; }
+  .card dd:last-child { margin-bottom: 0; }
+  ul { padding-left: 1.25rem; }
+  footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.875rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="repo/icons/icon.png" width="56" height="56" alt="">
+    <h1>inkov.dev F-Droid repository</h1>
+  </header>
+
+  <p>This is the F-Droid repository of developer Evgeny Inkov
+  (<a href="mailto:me@inkov.dev">me@inkov.dev</a>,
+  <a href="xmpp:tzx1z@inkov.dev">xmpp:tzx1z@inkov.dev</a>,
+  <a href="https://inkov.dev">https://inkov.dev</a>).
+  The APKs are built reproducibly from public source code and signed by the author.</p>
+
+  <h2>Add the repository</h2>
+  <p>Open this link on a phone with F-Droid installed:</p>
+  <p><a class="button" href="https://fdroid.link/#https://fdroid.inkov.dev/repo?fingerprint=1B4D3D289AC970F53860490E7AAA8B40E8810DFA149E3CA66FB93FB18E5738CE">Add to F-Droid</a></p>
+  <p>Or scan the QR code on the <a href="repo/">repository page</a>, or add it manually in
+  F-Droid: Settings - Repositories - "+".</p>
+  <dl class="card">
+    <dt>Address</dt>
+    <dd>https://fdroid.inkov.dev/repo</dd>
+    <dt>Key fingerprint (SHA-256)</dt>
+    <dd>1B4D3D289AC970F53860490E7AAA8B40E8810DFA149E3CA66FB93FB18E5738CE</dd>
+  </dl>
+
+  <h2>Apps</h2>
+  <ul>
+    <li><a href="https://github.com/tzx1z/cocosations">Cocosations</a>: an XMPP messenger
+    with call diagnostics, based on Conversations.
+    <a href="https://github.com/tzx1z/cocosations/releases">All versions</a>.</li>
+  </ul>
+
+  <footer>The repository keeps only the latest version of each app, older versions are on
+  the app's GitHub releases page.
+  Repository files: <a href="https://github.com/tzx1z/fdroid">github.com/tzx1z/fdroid</a>.</footer>
+</main>
+</body>
+</html>
