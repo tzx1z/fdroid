@@ -26,3 +26,6 @@ Or add it manually in F-Droid: Settings - Repositories - "+".
 - [Cocosations](https://github.com/tzx1z/cocosations): an XMPP messenger with
   call diagnostics, based on Conversations.
   [All versions](https://github.com/tzx1z/cocosations/releases).
+- [InkVault](https://github.com/tzx1z/inkvault-android): a self-hosted password
+  manager with end-to-end encryption and sync over XMPP.
+  [All versions](https://github.com/tzx1z/inkvault-android/releases).

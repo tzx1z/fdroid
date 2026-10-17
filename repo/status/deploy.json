@@ -1,1 +1,1 @@
-{"/etc/issue.net":"\\S\nKernel \\r on \\m (\\l)","commandLine":["/home/inkov/.local/bin/fdroid deploy","-v"],"endTimestamp":1792158778237,"startTimestamp":1792147977000,"subcommand":"deploy"}
+{"/etc/issue.net":"\\S\nKernel \\r on \\m (\\l)","commandLine":["/home/inkov/.local/bin/fdroid deploy"],"endTimestamp":1792183209040,"startTimestamp":1792172408000,"subcommand":"deploy"}
