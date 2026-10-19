@@ -5,9 +5,8 @@ This is the F-Droid repository of developer Evgeny Inkov
 The APKs are built reproducibly from public source code and signed by the author.
 
 The repository is published at https://fdroid.inkov.dev via GitHub Pages.
-This git repository only hosts the files and has no history: each release
-replaces the single commit. The repository keeps only the latest version of
-each app, older versions are on the app's GitHub releases page.
+The repository keeps only the latest version of each app, older versions are
+on the app's GitHub releases page.
 
 ## Add the repository
 
